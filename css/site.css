@@ -1326,3 +1326,97 @@ footer .container .social-media {
   border: none;
   border-radius: 5px;
 }
+
+.account-details .container .columns-container {
+  display: flex; /* Aktivera flexbox */
+}
+.account-details .container .columns-container .column-1 {
+  display: flex; /* Använd flexbox */
+  flex-direction: column; /* Ställ in riktningen till kolumn */
+  justify-content: center; /* Centrera vertikalt */
+  align-items: center; /* Centrera horisontellt */
+  text-align: center; /* Justera texten till mitten */
+}
+.account-details .container .columns-container .column-1 .buttons {
+  margin-top: 15px;
+}
+.account-details .container .columns-container .column-1 .buttons .btn-gray {
+  width: 100%;
+  margin-top: 10px;
+}
+.account-details .container .columns-container .column-2 {
+  margin-top: 20px;
+  padding-left: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.account-details .container .columns-container .column-2 .buttons {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.account-details .container .columns-container .column-2 .buttons .btn-gray {
+  width: 20%;
+  margin-top: 10px;
+}
+.account-details .container .columns-container .column-2 h5 {
+  color: blue;
+}
+.account-details .container .columns-container .column-2 .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dela innehållet i två kolumner */
+  gap: 20px;
+}
+.account-details .container .columns-container .column-2 .content label {
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+.account-details .container .columns-container .column-2 .content .input-group {
+  display: flex;
+  flex-direction: column;
+}
+.account-details .container .columns-container .column-2 .content .input-group input[type=text],
+.account-details .container .columns-container .column-2 .content .input-group input[type=email],
+.account-details .container .columns-container .column-2 .content .input-group input[type=password],
+.account-details .container .columns-container .column-2 .content .input-group input[type=checkbox] {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.account-details .container .columns-container .column-2 .content .input-group input[type=bio] {
+  width: 210%;
+  padding: 50px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.account-details .container .columns-container .column-2 .content-2 {
+  margin-top: 20px;
+}
+.account-details .container .columns-container .column-2 .content-2 label {
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+.account-details .container .columns-container .column-2 .content-2 .input-group {
+  display: flex;
+  flex-direction: column;
+}
+.account-details .container .columns-container .column-2 .content-2 .input-group input[type=add] {
+  width: 100%;
+  padding: 5px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.account-details .container .columns-container .column-2 .content-2 .input-group input[type=city],
+.account-details .container .columns-container .column-2 .content-2 .input-group input[type=postalcode] {
+  width: 50%;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}

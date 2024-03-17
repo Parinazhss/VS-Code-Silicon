@@ -5,7 +5,7 @@
 <meta name="viewport"content="width=device-width, initial-scale=1.0">
 <script defer src="https://kit.fontawesome.com/2eb5533ec7.js" crossorigin="anonymous"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
->
+
 <link rel="stylesheet" href="css/site.css">
 <title>Silicon</title>
 </head>
@@ -40,6 +40,117 @@
   </header>
 
 <main>
+     <section class="account-details">
+        <div class="container">
+            <div class="columns-container">
+            <div class="column-1">
+                <img src="images/avatar-account-details.svg" alt="johnsphoto">
+                <h5>John Doe</h5>
+                <p>john.doe@domain.com</p>
+                   <div class="buttons">
+                     <button class="btn-theme-s"><img src="images/icons/setting.svg" >Account Details</button>
+                     <button class="btn-gray"><img src="images/icons/signout.svg" >Sign Out</button>
+                  </div>
+            </div>
+
+            <div class="column-2">
+              
+              <form action="/Account/Details" method="post" novalidate>
+                <h2>Account Details</h2>
+                <h5>Basic Info</h5>
+    
+                <div class="content">
+                    <div id="form-firstname" class="input-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="firstname" required>
+                    </div>
+    
+                    <div id="form-lastname" class="input-group">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    </div>
+    
+                    <div id="form-email" class="input-group">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+    
+                    <div id="form-password" class="input-group">
+                        <label for="password">Phone</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <div id="form-bio" class="input-group">
+                        <label for="bio">Bio</label>
+                        <input type="bio" id="bio" name="bio" required>
+                    </div>
+    
+                    
+                 
+                    
+                </div>
+                <div class="buttons">
+                    <button class="btn-gray" type="submit">Cancel</button>
+                    <button class="btn-theme-s" type="submit">Save changes</button>
+                   </div>
+            </form>
+
+            <form action="/Address/Details" method="post" novalidate>
+               
+                <h5>Address</h5>
+    
+                <div class="content-2">
+                   
+    
+                   
+
+                    <div id="form-add" class="input-group">
+                        <label for="add1">Address line 1</label>
+                        <input type="add" id="add" name="add" required>
+                    </div>
+
+                    <div id="form-add" class="input-group">
+                        <label for="add2">Address line 2</label>
+                        <input type="add" id="add" name="add" required>
+                    </div>
+
+                    <div id="form-postalcode" class="input-group">
+                        <label for="form-postalcode">Postal code</label>
+                        <input type="postalcode" id="postalcode" name="postalcode" required>
+                    </div>
+    
+                    <div id="form-city" class="input-group">
+                        <label for="city">City</label>
+                        <input type="city" id="city" name="city" required>
+                    </div>
+
+
+        
+    
+                    
+                 
+                    
+                </div>
+                <div class="buttons">
+                    <button class="btn-gray" type="submit">Cancel</button>
+                    <button class="btn-theme-s" type="submit">Save changes</button>
+                   </div>
+            </form>
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+        </div>
+     </section>
+
 
     
 </main>
